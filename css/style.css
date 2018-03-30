@@ -1,0 +1,211 @@
+                                    body {
+                                        margin: 0px;
+                                    }
+                                    /*-------------------Navigation Bar------------------------- */
+                                    
+                                    .navigation {
+                                        background-color: silver;
+                                    }
+                                    
+                                    .logo {
+                                        background-color: rgb(160, 158, 158);
+                                        margin: 20px;
+                                        font-size: 25px;
+                                        padding: 5px 5px;
+                                        border-radius: 10px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                        color: rgb(112, 71, 33);
+                                    }
+                                    
+                                    .logo,
+                                    .nav .current a {
+                                        display: inline-block;
+                                    }
+                                    
+                                    .nav {
+                                        float: right;
+                                        margin: 20px;
+                                    }
+                                    
+                                    .nav ol {
+                                        list-style: none;
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    
+                                    .nav ol li {
+                                        display: inline-block;
+                                        margin-right: 20px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                    }
+                                    
+                                    .nav ol li a {
+                                        text-decoration: none;
+                                        padding: 10px 10px 15px 10px;
+                                        color: black;
+                                    }
+                                    
+                                    .nav ol li a:hover {
+                                        background-color: rgb(59, 59, 59);
+                                        color: white;
+                                        transition: all .05s ease;
+                                    }
+                                    /*------------------------Header Section------------------------------------*/
+                                    
+                                    header {
+                                        background-image: url('../img/webimg.jpg');
+                                        min-height: 400px;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        border-top: rgb(112, 71, 33) 4px solid;
+                                        border-bottom: rgb(112, 71, 33) 4px solid;
+                                    }
+                                    
+                                    header h2 {
+                                        margin: 0px 0px 150px 0px;
+                                        color: white;
+                                        font-size: 60px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                    }
+                                    
+                                    header p {
+                                        color: silver;
+                                        font-size: 30px;
+                                        font-family: 'Farsan', cursive;
+                                        text-shadow: 10px rgb(228, 157, 16);
+                                        margin: 0px 0px 100px 0px;
+                                    }
+                                    
+                                    .welcome-container {
+                                        text-align: center;
+                                        padding-top: 250px;
+                                    }
+                                    /* ------showcase for about-----*/
+                                    
+                                    .articale h1 {
+                                        background-image: url('../img/webimg2.jpg');
+                                        font-size: 55px;
+                                        font-family: 'Lato', sans-serif;
+                                        margin: 0px;
+                                        min-height: 400px;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        border-top: rgb(112, 71, 33) 4px solid;
+                                        border-bottom: rgb(112, 71, 33) 4px solid;
+                                    }
+                                    
+                                    .articale p {
+                                        margin: 0px;
+                                        text-indent: 20px;
+                                        text-align: center;
+                                        font-size: 20px;
+                                        font-family: 'Lato', sans-serif
+                                    }
+                                    /* contact me showcase*/
+                                    
+                                    .contact h1 {
+                                        background-image: url('../img/contact.jpg');
+                                        font-size: 55px;
+                                        font-family: 'Lato', sans-serif;
+                                        margin: 0px;
+                                        min-height: 400px;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        border-top: rgb(112, 71, 33) 4px solid;
+                                        border-bottom: rgb(112, 71, 33) 4px solid;
+                                        text-align: right;
+                                    }
+                                    
+                                    #form-me {
+                                        margin: 0px 0px 150px 0x;
+                                    }
+                                    
+                                    .container h1 {
+                                        text-align: center;
+                                    }
+                                    
+                                    .container #form-center {
+                                        text-align: center;
+                                    }
+                                    
+                                    .container #form-center {
+                                        border: rgb(112, 71, 33) 3px solid;
+                                        padding: 10px;
+                                    }
+                                    /* Column on the bottom of main */
+                                    
+                                    .column {
+                                        float: left;
+                                        width: 30%;
+                                        padding: 15px;
+                                        font-size: 25px;
+                                    }
+                                    /* both clear */
+                                    
+                                    .row:after {
+                                        content: "";
+                                        display: table;
+                                        clear: both;
+                                    }
+                                    
+                                    div a {
+                                        font-size: 28px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                    }
+                                    
+                                    .a,
+                                    .b,
+                                    .c {
+                                        font-size: 40px;
+                                        background-color: silver;
+                                        display: inline-block;
+                                        padding: 10px 25px;
+                                        margin: 10px 20px 25px 0px;
+                                        border-radius: 8px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                        color: rgb(112, 71, 33);
+                                    }
+                                    
+                                    .column ol li {
+                                        font-size: 25px;
+                                        margin: 0px 0px 0px 30px;
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                    }
+                                    
+                                    .c {
+                                        margin: 38px 20px 39px 15px;
+                                    }
+                                    
+                                    .column img {
+                                        height: 100px;
+                                        width: 200px;
+                                    }
+                                    
+                                    .d,
+                                    .e {
+                                        box-shadow: 10px 10px 5px grey;
+                                        border-radius: 10px;
+                                        display: inline-block;
+                                    }
+                                    
+                                    .e {
+                                        margin: 10px 15px;
+                                    }
+                                    /* mobile and desktop style */
+                                    
+                                    @media screen and (max-width: 768px) {}
+                                    
+                                    .column {
+                                        width: 30%;
+                                    }
+                                    /* -----Footer---------*/
+                                    
+                                    footer p {
+                                        font-family: 'Gloria Hallelujah', cursive;
+                                        font-size: 20px;
+                                        padding: 30px 30px;
+                                        margin: 0px;
+                                        text-align: center;
+                                        background-color: rgb(112, 71, 33);
+                                        border-top: black 3px solid;
+                                    }
