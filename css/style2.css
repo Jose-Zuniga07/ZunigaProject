@@ -1,0 +1,269 @@
+    * {
+    margin: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 50px;
+    filter: alpha (opacity=70);
+}
+
+
+/*---------------------Navigation and style-------------------- */
+
+nav {
+    background: rgba(136, 136, 133, 0.767)
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    border: 1px solid black;
+}
+
+nav li {
+    flex: 1;
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(218, 221, 9);
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: silver;
+    color: blueviolet;
+}
+
+
+/* flex media query */
+
+@media screen and (min-width: 768px) {
+    .Header-container {
+        background-image: url('../img/webimg.jpg');
+        display: flex;
+        font-size: 15px;
+    }
+    .imgcontainer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* --------------------------Header------------------------- */
+
+.Header-container {
+    background-image: url('../img/webimg.jpg');
+    min-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: rgb(204, 60, 3) 4px solid;
+    border-bottom: rgb(204, 60, 3) 4px solid;
+    height: 700px;
+}
+
+.header1 {
+    text-align: center;
+    padding-top: 225px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.para1 {
+    text-align: center;
+    color: rgb(149, 151, 1);
+    font-size: 30px;
+    font-family: 'Farsan', cursive;
+    margin: 0px auto;
+}
+
+
+/* -----------------flexbox container and logo images---------------- */
+
+.imgcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logos {
+    flex-basis: 250px;
+    margin: 10px;
+    display: block;
+    max-width: 100px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+    flex-basis: 300px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+/* -------------------------About ME Section----------------------*/
+
+
+/* showcase for about*/
+
+.article {
+    background-image: url('../img/webimg2.jpg');
+    height: 1000;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: rgb(112, 71, 33) 4px solid;
+    border-bottom: rgb(112, 71, 33) 4px solid;
+}
+
+.article h1 {
+    padding-top: 175px;
+    color: rgb(240, 216, 6);
+    text-align: center;
+    font-size: 135px;
+    text-shadow: rgb(212, 146, 4) 4px 4px;
+}
+
+.article p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(223, 226, 27);
+    font-size: 22px;
+    background-color: rgba(59, 59, 59, 0.883);
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 20px 25px 0px;
+    border-radius: 8px;
+}
+
+
+/* Column on the bottom of about */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+/* ---------column style------------ */
+
+.row {
+    padding-top: 100px;
+}
+
+div a {
+    font-size: 28px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+div a:hover {
+    color: white;
+    transition: all .05s ease;
+}
+
+.a,
+.b,
+.c {
+    font-size: 40px;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 20px 25px 0px;
+    border-radius: 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(112, 71, 33);
+}
+
+.column ol li {
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.c {
+    margin: 38px 20px 39px 15px;
+}
+
+.column img {
+    height: 100px;
+    width: 200px;
+}
+
+.d,
+.e {
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.e {
+    margin: 10px 15px;
+}
+
+
+/* ----------Contact Section-----------------*/
+
+.contact h1 {
+    background-image: url('../img/contact.jpg');
+    padding-top: 175px;
+    color: rgb(31, 159, 209);
+    text-align: center;
+    font-size: 135px;
+    text-shadow: rgb(83, 83, 83) 4px 4px;
+    font-family: 'Lato', sans-serif;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: rgb(112, 71, 33) 4px solid;
+    border-bottom: rgb(112, 71, 33) 4px solid;
+    width: 100%;
+}
+
+#form-me {
+    margin: 0px 0px 150px 0x;
+}
+
+.container h1 #form-center {
+    text-align: center;
+}
+
+.container #form-center {
+    border: rgb(34, 145, 189) 3px solid;
+    padding: 10px;
+}
+
+.comment {
+    border: rgba(1, 5, 8, 0.514) 5px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(3, 52, 85);
+    width: 100%;
+}
+
+
+/* ---------------FOOTER SECTION-------------------*/
+
+footer p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    padding: 30px 30px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(199, 186, 9);
+    border-top: black 3px solid;
